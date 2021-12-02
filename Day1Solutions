@@ -1,0 +1,10 @@
+#Part1
+f=open("./Data/Day1input.txt")
+depth=f.readlines()
+count=0
+for i in range(len(depth)):
+	if int(depth[i])>int(depth[i-1]):
+		count+=1
+	
+	
+print(count)
