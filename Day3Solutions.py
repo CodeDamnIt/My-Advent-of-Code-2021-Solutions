@@ -1,5 +1,5 @@
 #Part1
-f=open("/storage/emulated/0/Download/input.txt")
+f=open("./Data/Day3input.txt")
 a=f.readlines()
 Bit0=[]
 Bit1=[]
